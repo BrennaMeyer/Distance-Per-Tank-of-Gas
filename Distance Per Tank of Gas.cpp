@@ -5,19 +5,27 @@
 //Write a program that calculates the number of miles per gallon the car gets. Display the result on the screen;
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
+
+//double milesDriven = 375,
+//gallonsOfGasUsed = 15,
 
 int main()
 {
-	double milesDriven = 375,
-		gallonsOfGasUsed = 15,
-		MPG = milesDriven / gallonsOfGasUsed;
+	double milesDriven;
+	cout << "Please enter the miles Driven:";
+	cin >> milesDriven;
+	double gallonsOfGasUsed;
+	cout << "Please enter the gallons of gas used:";
+	cin >> gallonsOfGasUsed;
+	double MPG = milesDriven / gallonsOfGasUsed;
 
 	cout << endl
 		<< "milesDriven =" << milesDriven << endl
 		<< "Gallons used =" << gallonsOfGasUsed << endl
 		<< "Miles per gallon" << MPG << endl
 		<< endl;
-	 
+
 	return 0;
 }
