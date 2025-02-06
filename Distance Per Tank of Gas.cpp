@@ -18,6 +18,6 @@ int main()
 		<< "Gallons used =" << gallonsOfGasUsed << endl
 		<< "Miles per gallon" << MPG << endl
 		<< endl;
-
+	 
 	return 0;
 }
